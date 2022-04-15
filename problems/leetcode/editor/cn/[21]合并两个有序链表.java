@@ -38,7 +38,7 @@ class Solution {
             if (q == null) {
                 cur.next = new ListNode(p.val);
                 cur = cur.next;
-                p = p.next;Å
+                p = p.next;
                 continue;
             }
             if (p.val < q.val) {
